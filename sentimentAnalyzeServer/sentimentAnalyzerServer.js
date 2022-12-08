@@ -13,7 +13,11 @@ app.use(cors_app());
 
 const dotenv = require('dotenv');
 dotenv.config();
+const dotenv = require('dotenv');
+dotenv.config();
 
+const api_key = process.env.API_KEY;
+const api_url = process.env.API_URL;
 const api_key = process.env.API_KEY;
 const api_url = process.env.API_URL;
 
@@ -147,6 +151,7 @@ app.get("/text/sentiment", (req,res) => {
 });
 
 let server = app.listen(8080, () => {
+    // You need Docker account to link push the client code to the server
     // You need Docker account to link push the client code to the server
     console.log('Listening', server.address().port)
 })
