@@ -3,6 +3,30 @@ This is provide a simple dynamic web applications that can be deployed on IBM Cl
 
 **Watson Natural Language Understanding** offers a suite of features for text analysis. The Watson Natural Language Understanding analyze text to extract metadata from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles using natural language understanding.
 
+## How it works
+You can use this application to analyse emotion and sentiments of long sentences or content of in a URL. Here are some examples:
+
+1. Sentiment analysis
+
+<p align="center">
+  <img src="img/Sentimentanalyzer6.JPG">
+</p>  
+
+<p align="center">
+  <img src="img/Sentimentanalyzer3.JPG">
+</p>  
+
+2. Emotion analysis
+
+<p align="center">
+  <img src="img/Sentimentanalyzer4.JPG">
+</p>    
+
+<p align="center">
+  <img src="img/Sentimentanalyzer2.JPG">
+</p>    
+
+
 ## Pre-requisites: Sign up for IBM Cloud account and create a Watson Natural language Understanding service
 1. Create an IBM cloud account if you don't have one already.
 
@@ -62,7 +86,7 @@ npm start
 ```
 If all the required packages are successfully installed, the server should start without any issues. Press Ctrl+C to stop the server.
 <p align="center">
-  <img src="./img/1.PNG" alt="test server" width="150">
+  <img src="./img/1.PNG" alt="test server">
 </p>  
 
 </details>
